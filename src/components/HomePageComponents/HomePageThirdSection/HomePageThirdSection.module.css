@@ -1,0 +1,153 @@
+.MainContainer{
+    width: 100%;
+    position: absolute;
+    height: 70vh;
+    top: 240vh;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom:1px solid rgb(214, 228, 233) ;
+}
+.MainContainer p{
+    margin: 0;
+}
+.MainContainer>a{
+    text-decoration: none;
+    width: 20%;
+}
+.Cards{
+    padding:0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Cards:hover{
+    background-color: rgb(224, 233, 236);
+    cursor: pointer;
+}
+.OddCard{
+  height: 65vh;
+}
+.EvenCard{
+    height:70vh;
+}
+.Cards>img{
+    width: 90px;
+    height: 90px;
+}
+.Cards>p:nth-of-type(1){
+    color: rgb(41, 128, 156);
+    font-size: 19px;
+    padding: 20px 0;
+    line-height: 1.2;
+}
+.Cards>p:nth-of-type(2){
+    color: rgb(34, 107, 134);
+    font-size: 15px;
+    line-height: 1.7;
+}
+@media(max-width:375px){
+    .MainContainer{
+        display: none;
+    }
+}
+@media(max-width:320px){
+    .MainContainer{
+        position: absolute;
+        height: 325vh;
+        top: 360vh;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .MainContainer>a{
+        width: 100%;
+    }
+    .OddCard{
+      height: 65vh;
+    }
+    .EvenCard{
+        height:65vh;
+    }
+}
+/* .MainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom:1px solid rgb(214, 228, 233) ;
+}
+.MainContainer p{
+    margin: 0;
+}
+.MainContainer>a{
+    text-decoration: none;
+    width: 20%;
+}
+.Cards{
+    padding:0 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Cards:hover{
+    background-color: rgb(224, 233, 236);
+    cursor: pointer;
+}
+.OddCard{
+  height: 30vw;
+}
+.EvenCard{
+    height:35vw;
+}
+.Cards>img{
+    width: 7vw;
+    height: 7vw;
+}
+.Cards>p:nth-of-type(1){
+    color: rgb(41, 128, 156);
+    font-size: 1.5vw;
+    padding: 1.6vw 0;
+    line-height: 1.2;
+}
+.Cards>p:nth-of-type(2){
+    color: rgb(34, 107, 134);
+    font-size: 1.1vw;
+    line-height: 1.7;
+}
+@media(max-width:320px){
+    .MainContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .MainContainer>a{
+        width:100%;
+    }
+    .Cards{
+        padding:0 8vw;
+    }
+    .OddCard{
+      height: 140vw;
+    }
+    .EvenCard{
+        height:145vw;
+    }
+    .Cards>img{
+        width: 40vw;
+        height: 40vw;
+    }
+    .Cards>p:nth-of-type(1){
+        font-size: 5.8vw;
+        padding: 10vw 0;
+    }
+    .Cards>p:nth-of-type(2){
+        font-size: 4.6vw;
+    }
+} */

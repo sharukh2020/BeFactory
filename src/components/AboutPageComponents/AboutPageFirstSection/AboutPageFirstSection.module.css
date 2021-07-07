@@ -1,0 +1,224 @@
+/* About-Page-Fisrt-Section */
+.MainContainerA{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_subheader.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.UpperSectionA{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UpperSectionA>p{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    transform: translateY(50px);
+}
+.LowerSectionA{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LeftSectionA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    padding: 0 200px;
+    box-sizing: border-box;
+    font-size: 27px;
+    text-align: center;
+    height: 50vh;
+}
+.ImageA{
+    display: block;
+}
+.TextContent{
+    line-height: 1.2;
+}
+.RightSectionA{
+    display: none;
+}
+
+/* Products-Page-First-Section */
+.MainContainerB{
+    width: 100%;
+    height: 125vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_subheader.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 150vh;
+}
+.UpperSectionB{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UpperSectionB>p{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    transform: translateY(50px);
+}
+.LowerSectionB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LeftSectionB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    padding: 0 100px;
+    box-sizing: border-box;
+    font-size: 27px;
+    text-align: center;
+    width: 50%;
+    height: 75vh;
+}
+.ImageB{
+    display: none;
+}
+.RightSectionB{
+    width: 50%;
+    height: 75vh;
+    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_products_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Contact-Page-First-Section */
+.MainContainerC{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_subheader.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.MainContainerC>div{
+    width: 100%;
+    height: 50vh;
+}
+.UpperSectionC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UpperSectionC>p{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    transform: translateY(50px);
+}
+.LowerSectionC{
+   display: none;
+}
+@media(max-width:320px){
+    /* About-Page-First-Section */
+    .MainContainerA{
+        width: 100%;
+        height: 170vh;
+        background-size:cover;
+    }
+    .UpperSectionA{
+        width: 100%;
+        height: 60vh;
+    }
+    .UpperSectionA>p{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1;
+    }
+    .LowerSectionA{
+        width: 100%;
+        height: 110vh;
+    }
+    .LeftSectionA{
+        padding: 0 40px;
+        height: 110vh;
+    }
+
+    /* Products-Page-First-Section */
+    .MainContainerB{
+        width: 100%;
+        height: 180vh;
+        background-size:cover;
+    }
+    .UpperSectionB{
+        width: 100%;
+        height: 60vh;
+    }
+    .UpperSectionB>p{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1;
+    }
+    .LowerSectionB{
+        position: relative;
+    }
+    .LeftSectionB{
+        padding: 0 30px;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+    }
+    .RightSectionB{
+        width: 100%;
+        height: 120vh;
+    }
+
+    /* Contact-Page-First-Section */
+    .MainContainerC{
+        width: 100%;
+        height: 60vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_subheader.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+    .MainContainerC>div{
+        width: 100%;
+        height: 60vh;
+    }
+    .UpperSectionC{
+        width: 100%;
+        height: 60vh;
+    }
+    .UpperSectionC>p{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1;
+    }
+    .LowerSectionC{
+    display: none;
+    }
+}

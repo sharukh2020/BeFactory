@@ -1,0 +1,170 @@
+.MainContainer{
+   width: 100%;
+   height: 85px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-bottom: 1px solid darkgrey;
+   z-index: 3;
+}
+.SubContainerA{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: transparent;
+}
+.SubContainerB{
+    width: 100%;
+    height: 85px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.3;
+    
+}
+.LogoContainer{
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.LogoFirstPart{
+    color: yellow;
+}
+.LogoSecondPart{
+    color: white;
+}
+.PageLinksContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PageLinks a{
+    text-decoration: none;
+    color: white;
+    padding: 0 25px;
+    height: 85px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid transparent;
+}
+.PageLinks a:hover{
+    border-bottom: 5px solid yellow;
+    cursor: pointer;
+}
+.PageLinksContainerB{
+    display: none;
+}
+@media(max-width:375px){
+    .MainContainer{
+        background-color: rgb(44, 51, 71);
+    }
+     .SubContainerA{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     .PageLinksContainer{
+         display: none;
+     }
+     .PageLinksContainerB{
+         color: white;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-left: 10px;
+     }
+     .PageLinksContainerB>i{
+         font-size: 20px;
+         margin: 7px 0 0 0;
+         cursor: pointer;
+     }
+     .linksContainer{
+        padding: 10px 0 10px 30px;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 85px;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        background-color: rgb(44, 51, 71);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 1px solid rgb(189, 189, 207);
+     }
+     .linksContainerB{
+        padding: 10px 0 10px 30px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 200px;
+        background-color: rgb(44, 51, 71);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 1px solid rgb(189, 189, 207);
+        position: absolute;
+        bottom:85px;
+        left: 0;
+        animation: downwards 500ms linear  1 forwards;
+     }
+     @keyframes downwards {
+        100%{
+           transform: translateY(285px);
+        }
+    }
+     .linksContainerC{
+        padding: 10px 0 10px 30px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 200px;
+        background-color: rgb(44, 51, 71);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 1px solid rgb(189, 189, 207);
+        position: absolute;
+        top: 85px;
+        left: 0;
+        animation: upwards 500ms linear  1 forwards;
+     }
+     @keyframes upwards {
+        100%{
+            transform: translateY(-285px);
+        }
+    }
+     .PageLinks a{
+        text-decoration: none;
+        color: white;
+        height: 0;
+        padding:20px 40px;
+        font-size: 17px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+    }
+    .PageLinks a:hover{
+        border: 0;
+        cursor: pointer;
+    }
+}

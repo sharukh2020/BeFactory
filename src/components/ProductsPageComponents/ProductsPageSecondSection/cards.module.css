@@ -1,0 +1,88 @@
+.Cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 70px 50px;
+    border-bottom: 1px solid #d4d7db;
+}
+.RightSection{
+    padding-left: 100px;
+}
+.CardName{
+    font-size: 50px;
+}
+.CardHeading{
+    font-size: 50px;
+    margin-left: 10px;
+    color: #393f47;
+}
+.CardTextContent{
+    line-height:1.5;
+    width: 50%;
+    margin: 20px 0 40px 0;
+}
+.LowerSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.SubCards{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 22%;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.LeftImageSection{
+    margin-right: 20px;
+}
+.SubCardHeading{
+    margin: 0;
+    color: #324968;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.SubCardTextContent{
+    margin: 0;
+    line-height: 1.5;
+}
+@media(max-width:320px){
+    .Cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        padding:80px 0 40px 0;
+    }
+    .RightSection{
+        padding:0 20px;
+    }
+    .CardName{
+        display: block;
+        line-height: 1;
+    }
+    .CardHeading{
+        margin-left: 0;
+        line-height: 1;
+    }
+    .CardTextContent{
+        font-size: 15px;
+        width: 100%;
+    }
+    .LowerSection{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .SubCards{
+        width: 100%;
+        margin-right: 0;
+    }
+    .SubCardTextContent{
+        font-size: 15px;
+    }
+}

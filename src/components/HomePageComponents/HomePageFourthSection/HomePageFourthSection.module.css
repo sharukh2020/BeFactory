@@ -1,0 +1,116 @@
+.MainContainer{
+    height: 75vh;
+    position: absolute;
+    top: 310vh;
+    left: 0;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MainContainer p{
+   margin: 0;
+}
+.MainContainer>div{
+    width: 100%;
+    height: 47vh;
+}
+.FirstSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 45px;
+    padding-right: 30px;
+    line-height: 1.1;
+}
+.SecondSection{
+    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_map.png');
+    background-repeat: no-repeat;
+    background-size: 90% 32vh;
+    background-position:top center ;
+    padding: 0 30px;
+    border-left: 3px solid #7a91af;
+    border-right:  3px solid #7a91af;
+}
+.ThirdSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+.ThirdSection p{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 2;
+}
+.ThirdSection a{
+    text-decoration: none;
+    color: #7a91af;
+    font-size: 14px;
+    font-weight: 600;
+}
+.ThirdSection a:hover{
+    color: #526d92;
+    text-decoration: underline;
+}
+@media(max-width:375px){
+    .MainContainer{
+        display: none;
+    }
+}
+@media(max-width:320px){
+    .MainContainer{
+    height: 119vh;
+    padding: 100px 0;
+    position: absolute;
+    top: 685vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FirstSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 ;
+    border-right:  3px solid #7a91af;
+    box-sizing: border-box;
+
+}
+.FirstSection>p{
+    width: 90%;
+    text-align: end;
+}
+.SecondSection{
+    background-size: 100% 25vh;
+    padding: 0;
+    border-left:0;
+    border-right:0;
+    box-sizing: border-box;
+}
+.ThirdSection{
+    padding: 100px 20px;
+    border-left: 3px solid #7a91af;
+    box-sizing: border-box;
+}
+.ThirdSection p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 2;
+}
+.ThirdSection a{
+    text-decoration: none;
+    color: #7a91af;
+    font-size: 14px;
+    font-weight: 600;
+}
+.ThirdSection a:hover{
+    color: #526d92;
+    text-decoration: underline;
+}
+}

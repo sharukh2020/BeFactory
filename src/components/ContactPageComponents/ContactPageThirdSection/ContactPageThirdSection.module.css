@@ -1,0 +1,129 @@
+.MainContainer{
+    position: absolute;
+    top: 150vh;
+    left: 0;
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+.LeftSection{
+    width: 50%;
+    height: 100vh;
+}
+.Adresses{
+    margin: 0;
+    font-size: 50px;
+}
+.CardsContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.RightSection{
+    width: 50%;
+    height: 100vh;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.Heading{
+    margin: 0;
+    font-size: 50px;
+}
+.TextContent{
+    margin: 0;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+.FirstInputContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.FirstInputContainer>input{
+    width: 43%;
+    padding: 10px 15px;
+    border:2px solid yellow;
+    outline: none;
+    background-color: rgb(216, 215, 243);
+}
+.SecondInputContainer{
+    width: 100%;
+}
+.SecondInputContainer>input{
+    width: 100%;
+    padding: 10px 15px;
+    border:2px solid yellow;
+    outline: none;
+    background-color: rgb(216, 215, 243);
+    box-sizing: border-box;
+}
+.TextArea{
+    width: 100%;
+    height: 30vh;
+    border:2px solid yellow;
+    outline: none;
+    background-color: rgb(216, 215, 243);
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+.SubmitInputContainer{
+    width: 100%;
+}
+.SubmitInputContainer>input{
+    border: 0;
+    outline: none;
+    padding: 15px 20px;
+    background-color: yellow;
+}
+@media(max-width:320px){
+    .MainContainer{
+        position: absolute;
+        top: 465vh;
+        left: 0;
+        width: 100%;
+        height: 420vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding:70px 20px 0 20px;
+    }
+    .LeftSection{
+        width: 100%;
+        height: 280vh;
+    }
+    .CardsContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .RightSection{
+        width: 100%;
+        height: 130vh;
+        padding: 0;
+    }
+    .FirstInputContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:0;
+    }
+    .FirstInputContainer>input{
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+}

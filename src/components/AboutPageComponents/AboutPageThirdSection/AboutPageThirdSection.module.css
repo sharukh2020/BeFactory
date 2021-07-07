@@ -1,0 +1,148 @@
+.MainContainerA{
+    position: absolute;
+    top: 260vh;
+    left: 0;
+    width: 100%;
+    height: 55vh;
+    background-color: #324968;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MainContainerA>p{
+    margin: 0;
+    color: white;
+}
+.MainContainerA>p:nth-of-type(1){
+   font-size: 60px;
+   margin-bottom: 10px;
+}
+.MainContainerA>p:nth-of-type(2){
+    width: 70%;
+    font-size:26px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.2;
+ }
+ .MainContainerA button{
+     border: 0;
+     outline: none;
+     background-color: yellow;
+     padding: 15px 30px;
+     font-size: 14px;
+     cursor: pointer;
+ }
+ .MainContainerB{
+    position: absolute;
+    top: 446vh;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    background-color: #324968;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MainContainerB>p{
+    margin: 0;
+    color: white;
+}
+.MainContainerB>p:nth-of-type(1){
+   font-size: 60px;
+   margin-bottom: 10px;
+}
+.MainContainerB>p:nth-of-type(2){
+    width: 70%;
+    font-size:26px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.2;
+ }
+ .MainContainerB button{
+     border: 0;
+     outline: none;
+     background-color: yellow;
+     padding: 15px 30px;
+     font-size: 14px;
+     cursor: pointer;
+ }
+ @media(max-width:320px){
+    .MainContainerA{
+        position: absolute;
+        top: 720vh;
+        left: 0;
+        width: 100%;
+        height: 120vh;
+        background-color: #324968;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .MainContainerA>p{
+        margin: 0;
+        color: white;
+    }
+    .MainContainerA>p:nth-of-type(1){
+        width: 70%;
+        text-align: center;
+       font-size: 50px;
+       margin-bottom: 20px;
+       line-height: 1;
+    }
+    .MainContainerA>p:nth-of-type(2){
+        width: 70%;
+        font-size:26px;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 1.2;
+     }
+     .MainContainerA button{
+         border: 0;
+         outline: none;
+         background-color: yellow;
+         padding: 15px 30px;
+         font-size: 14px;
+         cursor: pointer;
+     }
+     .MainContainerB{
+        position: absolute;
+        top: 965vh;
+        left: 0;
+        width: 100%;
+        height: 120vh;
+        background-color: #324968;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .MainContainerB>p{
+        margin: 0;
+        color: white;
+    }
+    .MainContainerB>p:nth-of-type(1){
+        width: 70%;
+        text-align: center;
+       font-size: 50px;
+       margin-bottom: 20px;
+       line-height: 1;
+    }
+    .MainContainerB>p:nth-of-type(2){
+        width: 70%;
+        font-size:26px;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 1.2;
+     }
+     .MainContainerB button{
+         border: 0;
+         outline: none;
+         background-color: yellow;
+         padding: 15px 30px;
+         font-size: 14px;
+         cursor: pointer;
+     }
+}

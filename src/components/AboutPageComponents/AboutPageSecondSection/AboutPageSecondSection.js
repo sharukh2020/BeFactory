@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './AboutPageSecondSection.module.css'
+import CarImage from '../../../assets/about_page_car_photo.jpg'
 
 class AboutPageSecondSection extends React.Component{
     constructor(props){
@@ -10,7 +11,7 @@ class AboutPageSecondSection extends React.Component{
                     cardId:1,
                     mainHeading:'How it was on the beginning',
                     subHeading:'Sed id nisi lectus! Fusce ac magna gravida, tincidunt ipsum ac malesuada ante! Nam vel facilisis neque.',
-                    sectionOne:'http://be.beantownthemes.com/html/content/factory/images/home_factory_about_photo.jpg',
+                    sectionOne:CarImage,
                     sectionTwo:'Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. Telis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat velit.',
                     sectionThree:'Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.',
                     sectionFour:'Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam.'

@@ -6,6 +6,7 @@ import HomePageSecondSection from '../../components/HomePageComponents/HomePageS
 import HomePageThirdsection from '../../components/HomePageComponents/HomePageThirdSection/HomePageThirdSection'
 // import HomePageFourthSection from '../../components/HomePageComponents/HomePageFourthSection/HomePageFourthSection'
 import HomePageFifthSection from '../../components/HomePageComponents/HomePageFifthSection/HomePageFifthSection'
+
 class HomePage extends React.Component{
   render(){
    return(

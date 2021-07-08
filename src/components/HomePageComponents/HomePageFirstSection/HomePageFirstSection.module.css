@@ -50,7 +50,7 @@
 }
 .LowerSection{
     height: 2vh;
-    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_pattern.png');
+    background-image: url('../../../assets/home_factory_pattern.png');
     background-repeat: no-repeat;
     background-size:cover;
 }

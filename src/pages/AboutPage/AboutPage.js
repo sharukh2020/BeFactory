@@ -13,7 +13,7 @@ class AboutPage extends React.Component{
                <AboutPageFirstSection
                     mainContainerClass={'MainContainerA'}
                     upperSectionClass={'UpperSectionA'}
-                    upperSectionInnerContent={'MACHINE MADE EASY'}
+                    upperSectionInnerContent={'MACHINING MADE EASY'}
                     lowerSectionClass={'LowerSectionA'}
                     leftSectionClass={'LeftSectionA'}
                     imageClass={'ImageA'}

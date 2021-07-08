@@ -1,9 +1,9 @@
 /* About-Page-Fisrt-Section */
 .MainContainerA{
     width: 100%;
-    background-image: url('../../../assets//about_page_first_section_bg.jpg');
+    background-image: url('../../../assets/about_us_landing_section_bg.png');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:100% 50vh;
 }
 .UpperSectionA{
     width: 100%;
@@ -16,7 +16,7 @@
     color: white;
     font-size:3.7vw;
     font-weight: 600;
-    transform: translateY(50px);
+    transform: translateY(40px);
     text-align: center;
 }
 .LowerSectionA{
@@ -49,9 +49,9 @@
 /* Products-Page-First-Section */
 .MainContainerB{
     width: 100%;
-    background-image: url('../../../assets/products_page_first_section_bg.jpg');
+    background-image: url('../../../assets/products_landing_section_bg.png');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:100% 50vh;
 }
 .UpperSectionB{
     width: 100%;
@@ -64,7 +64,7 @@
     color: white;
     font-size:3.7vw;
     font-weight: 600;
-    transform: translateY(50px);
+    transform: translateY(40px);
     text-align: center;
 }
 .LowerSectionB{
@@ -115,7 +115,7 @@
     color: white;
     font-size:3.7vw;
     font-weight: 600;
-    transform: translateY(50px);
+    transform: translateY(40px);
     text-align: center;
 }
 .LowerSectionC{
@@ -123,6 +123,9 @@
 }
 @media(max-width:320px){
     /* About-Page-Fisrt-Section */
+    .MainContainerA{
+        background-size:100% 57vh;
+    }
     .UpperSectionA{
         height: 57vh;
     }
@@ -137,6 +140,9 @@
     }
 
     /*Products-Page-First-Section  */
+    .MainContainerA{
+        background-size:100% 57vh;
+    }
     .UpperSectionB{
         height: 57vh;
     }

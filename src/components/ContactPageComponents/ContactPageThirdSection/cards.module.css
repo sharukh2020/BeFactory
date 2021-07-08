@@ -1,35 +1,3 @@
-/* .Cards{
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-bottom: 50px;
-}
-.RightSection{
-    padding-left: 20px;
-}
-.AdressName{
-    margin: 0;
-    font-size: 22px;
-    color: rgb(66, 116, 133);
-    line-height: 1.2;
-}
-.DetailedAdress{
-    font-size: 15px;
-    line-height: 1.5;
-}
-.PhoneNumber{
-    color: rgb(66, 116, 133);
-}
-.Email{
-    color: rgb(66, 116, 133);
-}
-@media(max-width:320px){
-    .Cards{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-} */
 .Cards{
     width: 32%;
     display: flex;

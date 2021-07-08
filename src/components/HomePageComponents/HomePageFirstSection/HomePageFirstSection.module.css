@@ -56,8 +56,6 @@
 }
 @media(max-width:320px){
     .FirstSection{
-        background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_slider_bg.jpg');
-        background-repeat: no-repeat;
         background-size:330% 100vh;
         background-position-x:50% ;
     }

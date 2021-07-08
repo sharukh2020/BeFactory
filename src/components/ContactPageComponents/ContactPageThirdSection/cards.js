@@ -1,5 +1,6 @@
 import { cardsArr } from "./cardsArr";
 import classes from './cards.module.css'
+import CardIcon from '../../../assets/contact_page_card_icon.png'
 
 export const cards=cardsArr.map((item,pos)=>{
     return(
@@ -7,7 +8,7 @@ export const cards=cardsArr.map((item,pos)=>{
          <div className={classes.LeftSection}>
            <img 
             alt='location'
-            src="http://be.beantownthemes.com/html/content/factory/images/home_factory_pin.png"
+            src={CardIcon}
             className={classes.Image}/>
          </div>
          <div className={classes.RightSection}>

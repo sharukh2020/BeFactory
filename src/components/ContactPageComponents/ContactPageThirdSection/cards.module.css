@@ -1,4 +1,4 @@
-.Cards{
+/* .Cards{
     width: 30%;
     display: flex;
     justify-content: center;
@@ -28,5 +28,76 @@
     .Cards{
         width: 100%;
         margin-bottom: 30px;
+    }
+} */
+.Cards{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom:2.5vw;
+}
+.LeftSection{
+    width: 10%;
+}
+.Image{
+    height: 3.5vw;
+    width: 2.5vw;
+}
+.RightSection{
+    width: 70%;
+}
+.AdressName{
+    margin: 0;
+    font-size:1.52vw;
+    color: rgb(66, 116, 133);
+    line-height: 1.2;
+}
+.DetailedAdress{
+    margin: 0;
+    font-size:1.1vw;
+    line-height: 1.5;
+    margin-top: 0.7vw;
+}
+.PhoneNumber{
+    margin: 0;
+    font-size:1.1vw;
+    line-height: 1.5;
+    margin-top: 0.7vw;
+    color: rgb(66, 116, 133);
+}
+.Email{
+    margin: 0;
+    font-size:1.1vw;
+    line-height: 1.5;
+    margin-top: 0.7vw;
+    color: rgb(66, 116, 133);
+}
+@media(max-width:320px){
+    .Cards{
+        width: 100%;
+        margin-bottom:12vw;
+    }
+    .Image{
+        height: 14vw;
+        width:9vw;
+    }
+    .RightSection{
+        width: 80%;
+    }
+    .AdressName{
+        font-size:7vw;
+    }
+    .DetailedAdress{
+        font-size:4.6vw;
+        margin-top: 2vw;
+    }
+    .PhoneNumber{
+        font-size:4.6vw;
+        margin-top: 6vw;
+    }
+    .Email{
+        font-size:4.6vw;
+        margin-top: 4vw;
     }
 }

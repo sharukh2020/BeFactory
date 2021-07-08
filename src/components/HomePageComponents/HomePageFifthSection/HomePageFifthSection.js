@@ -7,11 +7,12 @@ class HomePageFifthSection extends React.Component{
         return(
             <div className={classes.MainContainer}>
              <div>
-                <p>We make car</p>
-                <p>elements since 1935</p>
-                <p>Aenean sollicitudin, lorem quis bibendum auctor nisi elit</p>
-                <p>consequat ipsum, nec sagittis.</p>
-                <div>
+              
+                <p>We make products </p>
+                <p>for industries</p>
+                <p>With collective experience of over four decades.</p>
+                <p>We create value and build confidence and through our years of experience we increase productivity</p>
+                {/* <div>
                     <p>  
                       Aenean sollicitudin, lorem quis 
                       bibendum auctor, nisi elit consequat 
@@ -30,7 +31,7 @@ class HomePageFifthSection extends React.Component{
                         imperdiet sit amet magna. Vestibulum 
                         dapibus, mauris nec malesuada fames ac.
                     </p>
-                </div>
+                </div> */}
              </div>
              <div>
                  <div>

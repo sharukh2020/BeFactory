@@ -1,13 +1,9 @@
 /* About-Page-Fisrt-Section */
 .MainContainerA{
     width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_subheader.jpg');
+    background-image: url('../../../assets//about_page_first_section_bg.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    background-size:cover;
 }
 .UpperSectionA{
     width: 100%;
@@ -18,13 +14,13 @@
 }
 .UpperSectionA>p{
     color: white;
-    font-size: 60px;
+    font-size:3.7vw;
     font-weight: 600;
     transform: translateY(50px);
+    text-align: center;
 }
 .LowerSectionA{
     width: 100%;
-    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,12 +30,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
-    padding: 0 200px;
-    box-sizing: border-box;
-    font-size: 27px;
+    background-color: red;
+    padding: 3.5vw 13vw;
+    font-size:2vw;
     text-align: center;
-    height: 50vh;
+    color: white;
+    box-sizing: border-box;
 }
 .ImageA{
     display: block;
@@ -50,17 +46,12 @@
 .RightSectionA{
     display: none;
 }
-
 /* Products-Page-First-Section */
 .MainContainerB{
     width: 100%;
-    height: 125vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_subheader.jpg');
+    background-image: url('../../../assets/products_page_first_section_bg.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 150vh;
+    background-size:cover;
 }
 .UpperSectionB{
     width: 100%;
@@ -71,9 +62,10 @@
 }
 .UpperSectionB>p{
     color: white;
-    font-size: 60px;
+    font-size:3.7vw;
     font-weight: 600;
     transform: translateY(50px);
+    text-align: center;
 }
 .LowerSectionB{
     display: flex;
@@ -85,140 +77,106 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
-    padding: 0 100px;
+    background-color: red;
+    color: white;
+    padding:0 6vw;
     box-sizing: border-box;
-    font-size: 27px;
+    font-size:2vw;
     text-align: center;
     width: 50%;
-    height: 75vh;
+    height: 35vw;
 }
 .ImageB{
     display: none;
 }
 .RightSectionB{
     width: 50%;
-    height: 75vh;
-    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_products_bg.jpg');
+    height:35vw;
+    background-image: url('../../../assets/products_page_first_section_right_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-
 /* Contact-Page-First-Section */
 .MainContainerC{
     width: 100%;
-    height: 50vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_subheader.jpg');
+    background-image: url('../../../assets/contact_page_first_section_bg.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
-}
-.MainContainerC>div{
-    width: 100%;
-    height: 50vh;
+    background-size:cover;
 }
 .UpperSectionC{
+    width: 100%;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .UpperSectionC>p{
     color: white;
-    font-size: 60px;
+    font-size:3.7vw;
     font-weight: 600;
     transform: translateY(50px);
+    text-align: center;
 }
 .LowerSectionC{
    display: none;
 }
 @media(max-width:320px){
-    /* About-Page-First-Section */
-    .MainContainerA{
-        width: 100%;
-        height: 170vh;
-        background-size:cover;
-    }
+    /* About-Page-Fisrt-Section */
     .UpperSectionA{
-        width: 100%;
-        height: 60vh;
+        height: 57vh;
     }
     .UpperSectionA>p{
-        text-align: center;
-        font-size: 40px;
-        font-weight: 700;
+        width: 80%;
+        font-size:13vw;
         line-height: 1;
     }
-    .LowerSectionA{
-        width: 100%;
-        height: 110vh;
-    }
     .LeftSectionA{
-        padding: 0 40px;
-        height: 110vh;
+        padding:20vw 13vw 10vw 13vw;
+        font-size:8vw;
     }
 
-    /* Products-Page-First-Section */
-    .MainContainerB{
-        width: 100%;
-        height: 180vh;
-        background-size:cover;
-    }
+    /*Products-Page-First-Section  */
     .UpperSectionB{
-        width: 100%;
-        height: 60vh;
+        height: 57vh;
     }
     .UpperSectionB>p{
-        text-align: center;
-        font-size: 40px;
-        font-weight: 700;
+        width: 80%;
+        font-size:13vw;
         line-height: 1;
     }
     .LowerSectionB{
         position: relative;
+        height: 100vh;
     }
     .LeftSectionB{
-        padding: 0 30px;
+        padding:0 8vw;
+        font-size:8.5vw;
         width: 100%;
-        height: 100vh;
+        height:85vh;
         position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 7.5vh;
         left: 0;
+    }
+    .ImageB{
+        display: none;
     }
     .RightSectionB{
-        width: 100%;
-        height: 120vh;
+        width:100%;
+        height:100vh;
     }
 
-    /* Contact-Page-First-Section */
-    .MainContainerC{
-        width: 100%;
-        height: 60vh;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_subheader.jpg');
-        background-repeat: no-repeat;
-        background-size: 100% 100vh;
-    }
-    .MainContainerC>div{
-        width: 100%;
-        height: 60vh;
-    }
+    /* Contact-Page-Fisrt-Section */
     .UpperSectionC{
-        width: 100%;
-        height: 60vh;
+        height: 57vh;
     }
     .UpperSectionC>p{
-        text-align: center;
-        font-size: 40px;
-        font-weight: 700;
+        width: 80%;
+        font-size:13vw;
         line-height: 1;
     }
-    .LowerSectionC{
-    display: none;
+    .LeftSectionC{
+        padding:20vw 13vw 10vw 13vw;
+        font-size:8vw;
     }
 }

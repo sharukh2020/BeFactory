@@ -1,163 +1,6 @@
 .MainContainer{
-    width: 100%;
-    height: 100vh;
-    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_offer_bg1.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    background-position: center;
-    position: absolute;
-    top: 140vh;
-    left: 0;
-}
-.RightSection{
-    width: 45%;
-    height: 100vh;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding-top: 60px;
-}
-.RightSection>p{
-    margin: 0;
-}
-.RightSection>p:nth-of-type(1){
-    font-size: 45px;
-    line-height: 1;
-}
-.RightSection>p:nth-of-type(2){
-    font-size: 45px;
-    line-height: 1;
-}
-.RightSection>p:nth-of-type(3){
-    color: rgb(149, 133, 133);
-    margin-top: 20px;
-    line-height: 1.8;
-    font-size: 14px;
-}
-.RightSection>p:nth-of-type(4){
-    color: rgb(149, 133, 133);
-    margin-bottom: 20px;
-    line-height: 1.8;
-    font-size: 14px;
-}
-.RightSection>div{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 30px;
-}
-.RightSection>div>p{
-    margin: 0;
-    line-height: 1.8;
-    font-size: 14px;
-}
-.RightSection>div>p:nth-of-type(1){
-    margin-right: 20px;
-}
-.RightSection>div>p{
-    color: rgb(149, 133, 133);
-    width: 45%;
-}
-.RightSection button{
-    border: 0;
-    outline: none;
-    padding: 13px 27px;
-    background-color: rgb(255, 230, 6);
-    color: rgb(54, 44, 44);
-    font-size: 14px;
-    cursor: pointer;
-}
-.RightSection button:hover{
-    background-color: rgb(255, 255, 0)
-}
-@media(max-width:375px){
-    .MainContainer{
-        width: 100%;
-        height: 140vh;
-        background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_offer_bg1.jpg');
-        background-repeat:no-repeat;
-        background-size:cover;
-        background-attachment: fixed;
-        background-position: center;
-        position: absolute;
-        top: 180vh;
-        left: 0;
-    }
-    .RightSection{
-        width: 100%;
-        height: 160vh;
-        position: absolute;
-        left:0;
-        top: 0;
-        padding:120px 20px;
-        box-sizing: border-box;
-    }
-    .RightSection>p{
-        margin: 0;
-    }
-    .RightSection>p:nth-of-type(1){
-        font-size: 48px;
-        line-height: 1;
-    }
-    .RightSection>p:nth-of-type(2){
-        font-size: 48px;
-        line-height: 1;
-    }
-    .RightSection>p:nth-of-type(3){
-        color: rgb(149, 133, 133);
-        margin-top: 20px;
-        line-height: 1.8;
-        font-size: 15px;
-    }
-    .RightSection>p:nth-of-type(4){
-        color: rgb(149, 133, 133);
-        margin-bottom: 20px;
-        line-height: 1.8;
-        font-size: 15px;
-    }
-    .RightSection>div{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-bottom: 30px;
-    }
-    .RightSection>div>p{
-        margin: 0;
-        line-height: 1.8;
-        font-size: 15px;
-    }
-    .RightSection>div>p:nth-of-type(1){
-        margin-right: 0;
-        margin-bottom: 50px;
-    }
-    .RightSection>div>p{
-        color: rgb(149, 133, 133);
-        width: 100%;
-    }
-    .RightSection button{
-        border: 0;
-        outline: none;
-        padding: 13px 27px;
-        background-color: rgb(255, 230, 6);
-        color: rgb(54, 44, 44);
-        font-size: 14px;
-        cursor: pointer;
-    }
-    .RightSection button:hover{
-        background-color: rgb(255, 255, 0)
-    }
-}
-@media(max-width:320px){
-    .MainContainer{
-        height: 180vh;
-    }
-    
-}
-/* .MainContainer{
     width: 100vw;
-    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_offer_bg1.jpg');
+    background-image: url('../../../assets/home_factory_offer_bg1.jpg');
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -189,12 +32,7 @@
     margin-top:3vh;
     line-height: 1.8;
     font-size: 1.1vw;
-}
-.RightSection>p:nth-of-type(4){
-    color: rgb(149, 133, 133);
     margin-bottom:3vh;
-    line-height: 1.8;
-    font-size:1.1vw;
 }
 .RightSection>div{
     display: flex;
@@ -218,13 +56,14 @@
     border: 0;
     outline: none;
     padding:2vh 2vw;
-    background-color: rgb(255, 230, 6);
+    background-color:red;
     color: rgb(54, 44, 44);
     font-size: 1.1vw;
+    color: white;
     cursor: pointer;
 }
 .RightSection button:hover{
-    background-color: rgb(255, 255, 0)
+    background-color:rgb(156, 17, 17)
 }
 @media(max-width:320px){
     .MainContainer{
@@ -234,7 +73,7 @@
         display: none;
     }
     .RightSection{
-        padding:0 4vw ;
+        padding:0 4vw;
         width: 100%;
     }
     .RightSection>p:nth-of-type(1){
@@ -245,9 +84,6 @@
     }
     .RightSection>p:nth-of-type(3){
         font-size: 5vw;
-    }
-    .RightSection>p:nth-of-type(4){
-        font-size:5vw;
     }
     .RightSection>div{
         flex-direction: column;
@@ -265,4 +101,4 @@
     .RightSection button{
         font-size: 5vw;
     }
-} */
+}

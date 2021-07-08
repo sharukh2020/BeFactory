@@ -1,79 +1,94 @@
 .MainContainer{
-    position: absolute;
-    top: 150vh;
-    left: 0;
     width: 100%;
-    height: 130vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 100px 50px;
+    align-items: flex-start;
+    padding:5vw 4vw;
     box-sizing: border-box;
 }
 .LeftSection{
     width: 50%;
-    height: 100vh;
 }
 .Adresses{
     margin: 0;
-    font-size: 50px;
+    font-size:3.7vw;
 }
 .CardsContainer{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
-    margin-top: 20px;
 }
 .RightSection{
     width: 50%;
-    height: 100vh;
-    padding: 0 50px;
+    padding:0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .Heading{
+    width: 90%;
     margin: 0;
-    font-size: 50px;
+    font-size: 3.7vw;
 }
 .TextContent{
+    width: 90%;
+    font-size: 1.2vw;
     margin: 0;
     line-height: 1.5;
-    margin: 20px 0;
+    margin:1.5vw 0;
+}
+.Form{
+    width: 90%;
 }
 .FirstInputContainer{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom:0.75vw;
 }
 .FirstInputContainer>input{
     width: 43%;
-    padding: 10px 15px;
-    border:2px solid yellow;
+    padding:0.7vw;
+    border:2px solid red;
     outline: none;
     background-color: rgb(216, 215, 243);
+    font-size: 1vw;
+}
+.FirstInputContainer>input:nth-of-type(1){
+    margin-right: 0.5vw;
 }
 .SecondInputContainer{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:0.75vw;
 }
 .SecondInputContainer>input{
-    width: 100%;
-    padding: 10px 15px;
-    border:2px solid yellow;
+    width: 97%;
+    padding:0.7vw;
+    border:2px solid red;
     outline: none;
     background-color: rgb(216, 215, 243);
     box-sizing: border-box;
+    font-size: 1vw;
+    margin-bottom:0.75vw;
 }
 .TextArea{
-    width: 100%;
-    height: 30vh;
-    border:2px solid yellow;
+    width: 97%;
+    height:15vw;
+    border:2px solid red;
     outline: none;
     background-color: rgb(216, 215, 243);
     box-sizing: border-box;
-    padding: 10px 15px;
+    padding:0.7vw;
+    font-size: 1vw;
 }
 .SubmitInputContainer{
     width: 100%;
@@ -81,49 +96,92 @@
 .SubmitInputContainer>input{
     border: 0;
     outline: none;
-    padding: 15px 20px;
-    background-color: yellow;
+    padding:0.8vw 1.3vw;
+    background-color: red;
+    margin-left: 0.7vw;
+    font-size: 1vw;
+    color: white;
+    cursor: pointer;
+}
+.SubmitInputContainer>input:hover{
+    background-color: rgb(160, 14, 14);
 }
 @media(max-width:320px){
     .MainContainer{
-        position: absolute;
-        top: 465vh;
-        left: 0;
-        width: 100%;
-        height: 420vh;
-        display: flex;
         flex-direction: column;
-        justify-content: flex-start;
         align-items: center;
-        padding:70px 20px 0 20px;
+        padding:23vw 8vw;
     }
     .LeftSection{
         width: 100%;
-        height: 280vh;
+        margin-bottom: 7vw;
+    }
+    .Adresses{
+        font-size:17vw;
     }
     .CardsContainer{
-        width: 100%;
-        display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
+        margin-top: 2vw;
     }
     .RightSection{
         width: 100%;
-        height: 130vh;
-        padding: 0;
+    }
+    .Heading{
+        width: 100%;
+        font-size: 17vw;
+        line-height: 1;
+    }
+    .TextContent{
+        width: 100%;
+        font-size:4.8vw;
+        line-height: 1.8;
+        margin:6vw 0;
+    }
+    .Form{
+        width: 100%;
     }
     .FirstInputContainer{
+        width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content:center;
         align-items: center;
-        margin-bottom:0;
+        margin-bottom: 0;
     }
     .FirstInputContainer>input{
         width: 100%;
+        padding:4vw;
+        font-size: 4vw;
+        margin-bottom: 3vw;
         box-sizing: border-box;
-        margin-bottom: 10px;
+    }
+    .FirstInputContainer>input:nth-of-type(1){
+        margin-right:0;
+    }
+    .SecondInputContainer{
+        width: 100%;
+    }
+    .SecondInputContainer>input{
+        width:100%;
+        padding:4vw;
+        font-size: 4vw;
+        box-sizing: border-box;
+        margin-bottom: 3vw;
+    }
+    .TextArea{
+        width: 100%;
+        height:60vw;
+        padding:4vw;
+        font-size: 4vw;
+        margin-bottom: 3vw;
+        box-sizing: border-box;
+    }
+    .SubmitInputContainer{
+        width: 100%;
+    }
+    .SubmitInputContainer>input{
+        padding:3vw 6vw;
+        margin-left: 0.7vw;
+        font-size: 4vw;
     }
 }

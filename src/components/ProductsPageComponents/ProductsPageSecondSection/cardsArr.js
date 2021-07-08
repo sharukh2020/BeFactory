@@ -1,7 +1,10 @@
+import Image1 from '../../../assets/products_page_product_category_1.png'
+import Image2 from '../../../assets/products_page_product_category_2.png'
+import Image3 from '../../../assets/products_page_product_category_3.png'
 export const cardsArr=[
     {
         cardId:1,
-        leftImgAdress:'http://be.beantownthemes.com/html/content/factory/images/home_factory_offer_cat_1.png',
+        leftImgAdress:Image1,
         cardName:'FASTLOCK',
         cardHeading:'longer life',
         cardTextContent:'Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellusin orci enim',
@@ -65,7 +68,7 @@ export const cardsArr=[
     },
     {
         cardId:2,
-        leftImgAdress:'http://be.beantownthemes.com/html/content/factory/images/home_factory_offer_cat_2.png',
+        leftImgAdress:Image2,
         cardName:'PRO-GEAR',
         cardHeading:'for all types of gearboxes',
         cardTextContent:'Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellusin orci enim',
@@ -104,7 +107,7 @@ export const cardsArr=[
     },
     {
         cardId:3,
-        leftImgAdress:'http://be.beantownthemes.com/html/content/factory/images/home_factory_offer_cat_3.png',
+        leftImgAdress:Image3,
         cardName:'ENGINEO',
         cardHeading:'for better performance',
         cardTextContent:'Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellusin orci enim',

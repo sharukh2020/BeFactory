@@ -1,4 +1,4 @@
-.Cards{
+/* .Cards{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -85,4 +85,117 @@
     .SubCardTextContent{
         font-size: 15px;
     }
+} */
+.Cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4vw 2vw 1vw 2vw;
+    border-bottom: 1px solid #d4d7db;
+}
+.LeftSectionImage{
+   width: 19vw;
+   height: 18vw;
+}
+.RightSection{
+    padding-left:6vw;
+    box-sizing: border-box;
+}
+.CardName{
+    font-size:3.7vw;
+}
+.CardHeading{
+    font-size: 3.7vw;
+    margin-left:1vw;
+    color: #393f47;
+}
+.CardTextContent{
+    line-height:1.5;
+    width: 40%;
+    font-size: 1.15vw;
+    margin:1.5vw 0 1.8vw 0;
+}
+.LowerSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.SubCards{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 22%;
+    margin-right:2vw;
+    margin-bottom: 3vw;
+}
+.LeftImageSection{
+    margin-right:2vw;
+}
+.SubCardHeading{
+    margin: 0;
+    color: #324968;
+    font-size:1.5vw;
+    margin-bottom:0.5vw;
+}
+.SubCardTextContent{
+    margin: 0;
+    line-height: 1.5;
+    font-size: 1.1vw;
+}
+@media(max-width:320px){
+    .Cards{
+        flex-direction: column;
+        padding: 20vw 7vw 10vw 7vw;
+        box-sizing: border-box;
+    }
+    .LeftSectionImage{
+       width: 80vw;
+       height: 70vw;
+    }
+    .RightSection{
+        padding-left:0;
+    }
+    .CardName{
+        font-size:16vw;
+        display: inline-block;
+        line-height: 1;
+        width: 90%;
+    }
+    .CardHeading{
+        font-size: 16vw;
+        margin-left:0;
+        line-height: 1;
+        width: 90%;
+    }
+    .CardTextContent{
+        width: 90%;
+        font-size: 4.8vw;
+        margin:5vw 0 10vw 0;
+    }
+    .LowerSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .SubCards{
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+        width: 90%;
+        margin-right:0;
+        margin-bottom: 10vw;
+    }
+    .LeftImageSection{
+        margin-right:8vw;
+    }
+    .SubCardHeading{
+        font-size:7vw;
+        margin-bottom:2vw;
+    }
+    .SubCardTextContent{
+        font-size: 4.8vw;
+    }
+    
 }

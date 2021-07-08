@@ -10,29 +10,16 @@ class HomePageSecondSection extends React.Component{
 
               </div>
                <div className={classes.RightSection}>
-                 <p>We create</p>
-                 <p>new technology</p>
-                 <p>Aenean sollicitudin, lorem quis bibendum auctor nisi</p>
-                 <p>elit consequat ipsum, nec sagittis.</p>
+                 <p>Product Engineering</p>
+                 <p>Services</p>
+                 <p>We are experts when it comes to CNC</p>
                  <div>
                      <p>
-                       Curabitur et ligula. Ut molestie a
-                       , ultricies porta urna. Vestibulum 
-                       commodo volutpat a, convallis ac
-                       , laoreet enim. Phasellus fermentum in
-                       , dolor. Pellentesque facilisis. Nulla 
-                       imperdiet sit amet magna. Vestibulum 
-                       dapibus, mauris nec malesuada fames 
-                       ac turpis velit, rhoncus eu.
-                     </p>
-                     <p>
-                       Aenean sollicitudin, lorem quis 
-                       bibendum auctor, nisi elit consequat 
-                       ipsum, nec sagittis sem nibh id elit. Duis 
-                       sed odio sit amet nibh vulputate cursus 
-                       a sit amet mauris. Morbi accumsan 
-                       ipsum velit. Nam nec tellusin orci enim
-                       , luctus et interdum adipiscing wisi.
+                      Build Future-Proof Products with 
+                      Innovative Engineering Services· 
+                      We Deliver end-to-end Product Engineering 
+                      Solutions to meet the unique needs of a variety 
+                      of industries and customers around the world
                      </p>
                  </div>
                  <Link to='/products'>

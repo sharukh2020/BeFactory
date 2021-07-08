@@ -1,4 +1,4 @@
-.MainContainer{
+/* .MainContainer{
     width: 100%;
     position: absolute;
     height: 70vh;
@@ -73,8 +73,8 @@
     .EvenCard{
         height:65vh;
     }
-}
-/* .MainContainer{
+} */
+.MainContainer{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -150,4 +150,4 @@
     .Cards>p:nth-of-type(2){
         font-size: 4.6vw;
     }
-} */
+}

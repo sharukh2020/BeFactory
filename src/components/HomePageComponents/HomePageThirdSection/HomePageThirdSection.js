@@ -1,6 +1,10 @@
 import React from 'react'
 import classes from './HomePageThirdSection.module.css'
 import {Link} from 'react-router-dom'
+import Image1 from '../../../assets/home_factory_icon_3.png'
+import Image2 from '../../../assets/home_factory_icon_2.png'
+import Image3 from '../../../assets/home_factory_icon_5.png'
+import Image4 from '../../../assets/home_factory_icon_1.png'
 
 class HomePageThirdSection extends React.Component{
     constructor(props){
@@ -9,32 +13,32 @@ class HomePageThirdSection extends React.Component{
             cardsArr:[
                 {
                     cardId:1,
-                    imageAdress:'http://be.beantownthemes.com/html/content/factory/images/home_factory_icon_3.png',
-                    cardHeading:'Aenean sollicitudin lorem quis bibendum',
+                    imageAdress:Image1,
+                    cardHeading:'P1',
                     cardText:'Pellentesque a fermentum dui; sit amet dapibus nulla. Quisque vel hendrerit leo. Donec euismod commodo dui at lobortis. Integer ornare pellentesque leo posuere'
                 },
                 {
                     cardId:2,
-                    imageAdress:'http://be.beantownthemes.com/html/content/factory/images/home_factory_icon_2.png',
-                    cardHeading:'In quis placerat leo metus nullam efficitur est metus',
+                    imageAdress:Image2,
+                    cardHeading:'P2',
                     cardText:'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies.'
                 },
                 {
                     cardId:3,
-                    imageAdress:'http://be.beantownthemes.com/html/content/factory/images/home_factory_icon_5.png',
-                    cardHeading:'Praesent volutpat volutpat morbi gravida orci aliquam',
+                    imageAdress:Image3,
+                    cardHeading:'P3',
                     cardText:'Pellentesque a fermentum dui; sit amet dapibus nulla. Quisque vel hendrerit leo. Donec euismod commodo dui at lobortis. Integer ornare pellentesque leo posuere.'
                 },
                 {
                     cardId:4,
-                    imageAdress:'http://be.beantownthemes.com/html/content/factory/images/home_factory_icon_1.png',
-                    cardHeading:'Dapibus risus ante sodales lectus blandit eu tempor diam',
+                    imageAdress:Image4,
+                    cardHeading:'P4',
                     cardText:'Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus.'
                 },
                 {
                     cardId:5,
-                    imageAdress:'http://be.beantownthemes.com/html/content/factory/images/home_factory_icon_2.png',
-                    cardHeading:'Aenean sollicitudin lorem quis bibendum',
+                    imageAdress:Image2,
+                    cardHeading:'P5',
                     cardText:'Pellentesque a fermentum dui; sit amet dapibus nulla. Quisque vel hendrerit leo. Donec euismod commodo dui at lobortis. Integer ornare pellentesque leo posuere.'
                 }
             ]

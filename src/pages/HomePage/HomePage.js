@@ -14,7 +14,7 @@ class HomePage extends React.Component{
          <HomePageFirstSection/>
          <HomePageSecondSection/>
          <HomePageThirdsection/>
-         <HomePageFourthSection/>
+         {/* <HomePageFourthSection/> */}
          <HomePageFifthSection/>
      </div>
    )

@@ -1,4 +1,4 @@
-.MainContainer{
+/* .MainContainer{
     height: 75vh;
     position: absolute;
     top: 310vh;
@@ -113,4 +113,100 @@
     color: #526d92;
     text-decoration: underline;
 }
+} */
+.MainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw 0;
+}
+.MainContainer p{
+   margin: 0;
+}
+.MainContainer>div{
+    width: 100%;
+}
+.FirstSection{
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 4vw;
+    padding-right: 2vw;
+    line-height: 1;
+    border-right:  3px solid #7a91af;
+    box-sizing: border-box;
+}
+.SecondSection{
+    height: 25vw;
+    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_map.png');
+    background-repeat: no-repeat;
+    background-size: 90% 15vw;
+    background-position:top center ;
+    padding: 0 2vw;
+    box-sizing: border-box;
+}
+.ThirdSection{
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2vw;
+    border-left: 3px solid #7a91af;
+    box-sizing: border-box;
+}
+.ThirdSection p{
+    margin-bottom: 2vh;
+    font-size: 1.1vw;
+    line-height: 1.8;
+}
+.ThirdSection a{
+    text-decoration: none;
+    color: #7a91af;
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+.ThirdSection a:hover{
+    color: #526d92;
+    text-decoration: underline;
+}
+@media(max-width:320px){
+    .MainContainer{
+        flex-direction: column;
+        padding: 30vw 0;
+    }
+    .MainContainer p{
+       margin: 0;
+    }
+    .MainContainer>div{
+        width: 100%;
+    }
+    .FirstSection{
+        height: 130vw;
+        font-size: 18vw;
+        padding-right: 12vw;
+    }
+    .FirstSection>p{
+        width: 90%;
+        text-align: end;
+    }
+    .SecondSection{
+        height: 50vw;
+        background-size: 100% 50vw;
+        padding: 0;
+    }
+    .ThirdSection{
+        height: 130vw;
+        padding:0 8vw;
+    }
+    .ThirdSection p{
+        font-size: 4.8vw;
+        line-height: 1.8;
+        margin-bottom: 2vh;
+    }
+    .ThirdSection a{
+        font-size: 4.8vw;
+    }
 }

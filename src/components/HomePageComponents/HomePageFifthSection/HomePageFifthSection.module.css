@@ -1,13 +1,9 @@
 .MainContainer{
     width: 100%;
-    height: 95vh;
-    position: absolute;
-    top: 385vh;
-    left: 0;
     display: flex;
     justify-content:center;
     align-items: center;
-    background-image: url('http://be.beantownthemes.com/html/content/factory/images/home_factory_section_bg.jpg');
+    background-image: url('../../../assets/home_factory_section_bg.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -15,111 +11,108 @@
 .MainContainer p{
     margin: 0;
 }
-.MainContainer>div{
-   height: 95vh;
-}
 .MainContainer>div:nth-of-type(1){
     width: 50%;
-    background-color: yellow;
+    height: 40vw;
+    padding:0 4vw;
+    background-color:red;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
-    padding: 60px 30px 0 50px ;
+    color: white;
     box-sizing: border-box;
 }
 .MainContainer>div:nth-of-type(1)>p:nth-of-type(1){
-    font-size: 50px;
+    font-size: 4.1vw;
     line-height: 1;
 }
 .MainContainer>div:nth-of-type(1)>p:nth-of-type(2){
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 4.1vw;
+    margin-bottom: 4vh;
     line-height: 1;
 }
 .MainContainer>div:nth-of-type(1)>p:nth-of-type(3){
-    font-size: 22px;
-    line-height: 1;
+    font-size: 2vw;
+    line-height: 1.5;
+    margin-bottom: 4vh;
 }
 .MainContainer>div:nth-of-type(1)>p:nth-of-type(4){
-    font-size: 22px;
-    margin-bottom: 70px;
-    line-height: 1;
+    font-size:1.5vw;
+    line-height: 1.5;
 }
-.MainContainer>div:nth-of-type(1)>div{
+/* .MainContainer>div:nth-of-type(1)>div{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .MainContainer>div:nth-of-type(1)>div>p{
-    font-size: 16px;
+    font-size: 1.3vw;
     line-height: 1.8;
-    padding-right: 20px;
-}
+    padding-right:2vw;
+} */
 .MainContainer>div:nth-of-type(2){
-    position: relative;
     width: 50%;
+    height: 40vw;
 }
 .MainContainer>div:nth-of-type(2) div{
-    position: absolute;
-    top: 200px;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .MainContainer>div:nth-of-type(2) a{
     text-decoration: none;
     background-color: #486285;
     color: white;
-    padding: 15px 20px;
-    font-size: 14px;
+    padding:1vw 1.5vw;
+    font-size: 1vw;
     font-weight: 600;
 }
 .MainContainer>div:nth-of-type(2) a:hover{
     background-color: #324864;
 }
-@media(max-width:375px){
-    .MainContainer{
-        display: none;
-    }
-}
 @media(max-width:320px){
     .MainContainer{
-        width: 100%;
-        height: 270vh;
-        position: absolute;
-        top: 835vh;
-        left: 0;
-        display: flex;
         flex-direction: column;
-        justify-content:center;
-        align-items: center;
-    }
-    .MainContainer>div{
-       height: 170vh;
     }
     .MainContainer>div:nth-of-type(1){
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        padding: 70px 20px;
+        height: 200vw;
+        padding:0 5vw;
     }
-    .MainContainer>div:nth-of-type(1)>div{
-      display: flex;
+    .MainContainer>div:nth-of-type(1)>p:nth-of-type(1){
+        font-size: 15vw;
+    }
+    .MainContainer>div:nth-of-type(1)>p:nth-of-type(2){
+        font-size: 15vw;
+    }
+    .MainContainer>div:nth-of-type(1)>p:nth-of-type(3){
+        font-size: 8vw;
+    }
+    .MainContainer>div:nth-of-type(1)>p:nth-of-type(4){
+        font-size:5.5vw;
+        margin-bottom: 10vh;
+    }
+    /* .MainContainer>div:nth-of-type(1)>div{
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
     }
+    .MainContainer>div:nth-of-type(1)>div>p{
+        font-size: 5vw;
+        padding-right:0;
+        margin-bottom: 5vh;
+    } */
     .MainContainer>div:nth-of-type(2){
-        position: relative;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: 150vw;
     }
     .MainContainer>div:nth-of-type(2) div{
-        position: static;
-        transform: translateX(0);
+        width: 100%;
+        height: 150vw;
+    }
+    .MainContainer>div:nth-of-type(2) a{
+        padding:4vw 6vw;
+        font-size: 4vw;
     }
 }

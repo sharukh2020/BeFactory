@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Topbar.module.css';
 import {Link} from "react-router-dom"
+import Logo from '../../assets/LogoTMES.PNG'
 
 class Topbar extends React.Component{
   constructor(props){
@@ -52,8 +53,11 @@ class Topbar extends React.Component{
     <div className={classes.MainContainer}>
         <div className={classes.SubContainerA}>
           <div className={classes.LogoContainer}>
-            <span className={classes.LogoFirstPart}>Be</span>
-            <span className={classes.LogoSecondPart}>FACTORY</span>
+            <img
+              className={classes.Logo}
+              src={Logo}
+              alt="Logo"
+              />
           </div> 
           <div className={classes.PageLinksContainer}>
             {pageLinks}

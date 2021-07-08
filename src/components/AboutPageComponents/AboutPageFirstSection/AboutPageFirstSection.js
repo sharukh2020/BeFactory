@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './AboutPageFirstSection.module.css'
+import AboutImage from '../../../assets/about_page_about_icon.png'
 
 class AboutPageFirstSection extends React.Component{
     render(){
@@ -13,7 +14,7 @@ class AboutPageFirstSection extends React.Component{
                     <img 
                     alt='about'
                     className={classes[this.props.imageClass]}
-                    src='http://be.beantownthemes.com/html/content/factory/images/home_factory_about_icon.png'/>
+                    src={AboutImage}/>
                     <p className={classes.TextContent}>
                         {this.props.textContent}
                     </p>

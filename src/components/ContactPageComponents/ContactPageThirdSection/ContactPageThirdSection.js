@@ -24,14 +24,13 @@ class ContactPageThirdSection extends React.Component{
                 </div>
                 <div className={classes.SecondInputContainer}>
                   <input type='text' name="subject" placeholder="Subject"/>
-                </div>
-                <textarea className={classes.TextArea} defaultValue="Message">
+                  <textarea className={classes.TextArea} defaultValue="Message">
                   
-                </textarea>
+                 </textarea>
+                </div>
                 <div className={classes.SubmitInputContainer}>
                   <input type='submit' value='Send Message'/>
                 </div>
-
                </form>
              </div>
             </div>

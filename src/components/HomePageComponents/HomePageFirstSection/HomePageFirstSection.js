@@ -8,9 +8,9 @@ class HomePageFirstSection extends React.Component{
     <div className={classes.MainContainer}>
       <div className={classes.FirstSection}>
           <div className={classes.Introtext}>
-             <p>IT'S</p>
-             <p>WHERE ALL</p>
-             <p>BEGINS</p>
+             <p>MACHINING</p>
+             <p>MADE</p>
+             <p>EASY</p>
           </div>
           <Link to='/about'>
                <button className={classes.IntroBtn}>Discover our technology</button>
@@ -18,9 +18,8 @@ class HomePageFirstSection extends React.Component{
       </div>
       <div className={classes.SecondSection}>
          <div className={classes.upperSection}>
-              Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-              sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet 
-              mauris. Morbi accumsan ipsum velit.
+           We are experienced work-lovers focused on Quality &amp; Customer Satisfaction. We are an ISO 9001: 2015
+           certified company.
          </div>
          <div className={classes.LowerSection}>
            
